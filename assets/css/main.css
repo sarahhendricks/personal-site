@@ -1,7 +1,7 @@
 html,
 body {
     --rasin-black: #262322;
-    --wheat: #e4d6a7;
+    --blush: #ea638c;
     --maximum-yellow-red: #e9b44c;
     --melon: #ffbcb5;
     --baby-powder: #fcfcfc;
@@ -17,6 +17,14 @@ a {
 
 img {
     border: 0;
+}
+
+p {
+    color: var(--rasin-black);
+}
+
+h2 {
+    color: var(--blush);
 }
 
 .icon {
