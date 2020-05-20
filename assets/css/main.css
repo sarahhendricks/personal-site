@@ -8,6 +8,7 @@ body {
     height: 100%;
     margin: 0px;
     background-color: var(--baby-powder, #fcfcfc);
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 a {
@@ -21,7 +22,6 @@ img {
 
 p {
     color: var(--rasin-black);
-    font-family: "Open Sans Condensed", sans-serif;
     line-height: 1.5em;
     font-size: large;
 }
@@ -100,22 +100,25 @@ h3 {
 }
 
 #loominary .project-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
         url("../images/loominary-header.jpg");
 }
 
 #bujo-2019 .project-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
         url("../images/bujo-2019-header.png");
 }
 
 #sweet-evil .project-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
         url("../images/sweet-evil-header.png");
 }
 
 .project-header-text {
     text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 5em;
+    line-height: 0.5em;
 }
 
 .tagline {
