@@ -13,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--melon, #ffbcb5);
+    color: var(--blush, #ffbcb5);
 }
 
 img {
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    color: var(--blush);
+    color: var(--maximum-yellow-red);
     font-size: 24px;
 }
 
