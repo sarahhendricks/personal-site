@@ -23,7 +23,7 @@ img {
 p {
     color: var(--rasin-black);
     line-height: 1.5em;
-    font-size: large;
+    font-size: 20px;
 }
 
 h2 {
@@ -32,6 +32,7 @@ h2 {
 
 h3 {
     color: var(--blush);
+    font-size: 24px;
 }
 
 .icon {
@@ -83,8 +84,9 @@ h3 {
 }
 
 .project {
-    width: 75%;
-    margin: 0 auto;
+    margin: 5rem auto;
+    width: 70%;
+    display: grid;
 }
 
 .project-header {
@@ -127,8 +129,26 @@ h3 {
     text-transform: lowercase;
 }
 
-.project img {
+figure {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+figure > img {
     width: 80%;
+}
+
+figcaption {
+    margin: 1em 4em;
+}
+
+.project h3 {
+    margin: 1em 0 0 0;
+}
+
+.project p {
+    text-align: justify;
 }
 
 footer {
