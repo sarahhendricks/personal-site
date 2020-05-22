@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 html,
 body {
     --rasin-black: #262322;
@@ -5,10 +8,15 @@ body {
     --maximum-yellow-red: #e9b44c;
     --melon: #ffbcb5;
     --baby-powder: #fcfcfc;
-    height: 100%;
     margin: 0px;
     background-color: var(--baby-powder, #fcfcfc);
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
 a {
@@ -156,4 +164,6 @@ footer {
     width: 100%;
     height: 100px;
     color: var(--maximum-yellow-red);
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
