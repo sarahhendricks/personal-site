@@ -88,11 +88,12 @@ h3 {
 
 .content {
     text-align: center;
+    margin: 5rem auto;
+    width: 70%;
 }
 
 .project {
     margin: 5rem auto;
-    width: 70%;
     display: grid;
 }
 
@@ -148,6 +149,13 @@ figure > img {
 
 figcaption {
     margin: 1em 4em;
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2em;
+    padding: 15px;
 }
 
 .project h3 {
